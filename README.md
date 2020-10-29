@@ -1,29 +1,22 @@
 # E-Commerce
-E-Commerce application written in ASP.NET Core 2.0 (Razor Pages) and MSSQL
+E-Commerce application written in ASP.NET Core 2.0 and MSSQL
 
 ## Database
-Run `ecommerce-db-script.sql` in your database and it will create a database named **eCommerce** with some sample data.
+Run `ecommerce-db-script-updated.sql` in your database and it will create a database named **eCommerce** with some sample data.
 
 ## Backend
-If you need to change the connection string you can do it by going to `application.json` file.
+Change the connection string in `application.json` file to point it to local database.
 
 Execute `dotnet run` in CMD and the application will start running.
 
 ## Users
 #### Admin
 email: admin@admin.com
-
 password: P@ssw0rd
 
 #### Customer
-email: ertanhasani96@gmail.com
-
+email: test@test.com
 password: P@ssw0rd
-
-**ENJOY!**
-
-
-> **Feel free to add any feature that you think it would be nice!**
 
 
 ## Images
